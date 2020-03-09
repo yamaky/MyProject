@@ -43,17 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Danger.cs" />
+    <Compile Include="Alive.cs" />
+    <Compile Include="Let\Danger.cs" />
     <Compile Include="Enemy.cs" />
-    <Compile Include="Gun.cs" />
+    <Compile Include="Point.cs" />
+    <Compile Include="Weapon\Gun.cs" />
     <Compile Include="Hero.cs" />
-    <Compile Include="Knife.cs" />
-    <Compile Include="Let.cs" />
+    <Compile Include="Weapon\Knife.cs" />
+    <Compile Include="Let\Let.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rifle.cs" />
-    <Compile Include="Wall.cs" />
-    <Compile Include="Weapon.cs" />
+    <Compile Include="Weapon\Rifle.cs" />
+    <Compile Include="Let\Wall.cs" />
+    <Compile Include="Weapon\Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -6,15 +6,18 @@ using System.Threading.Tasks;
 
 namespace MyProject
 {
-    class Enemy : Alive
+    class Weapon
     {
-        public Enemy()
+        public int damage;
+        public int hit;
+        public int distance;
+
+        public Weapon()
         {
-            health = 100;
-            heart = 1;
+
         }
 
-        public override void Run()
+        public virtual void Attack()
         {
 
         }

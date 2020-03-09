@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyProject
 {
-    class Hero
+    class Hero : Alive
     {
-        public int health;
-        public int heart;
-        public int i, y;
-        public int spead;
+        public int heart { get; private set; }
 
         public Hero()
         {
@@ -19,7 +16,7 @@ namespace MyProject
             heart = 3;
         }
 
-        public virtual void Run(int i, int y, int spead)
+        public override void Run()
         {
 
         }
